@@ -3,4 +3,5 @@
 parent_path=$( cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P )
 
 cd "$parent_path"
-/Users/romandimov/anaconda3/bin/python3 ./send_data.py
+python_path=$(which python3)
+$python_path ./send_data.py
