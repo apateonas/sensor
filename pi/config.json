@@ -1,4 +1,5 @@
 {
 	"ENDPOINT_API_URL" : "https://pastebin.com/api/api_post.php",
-	"PASTEBIN_KEY" : "8f63a0a1e5ca6f6c65dfe0c75793f3fe"
+	"PASTEBIN_DEV_KEY" : "8f63a0a1e5ca6f6c65dfe0c75793f3fe",
+	"PASTEBIN_USER_KEY" : "c23443efb8598185bdf8a392fbf411c4"
 }

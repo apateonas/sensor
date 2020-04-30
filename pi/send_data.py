@@ -11,8 +11,10 @@ def send_data(data_json):
         config = json.load(read_file)
 
     # data to be sent to api 
-    data = {'api_dev_key':config['PASTEBIN_KEY'],
-            'api_paste_code':str(data_json), 
+    data = {'api_dev_key': config['PASTEBIN_DEV_KEY'],
+            'api_user_key': config['PASTEBIN_USER_KEY'],
+            'api_paste_name': "test post",
+            'api_paste_code': str(data_json), 
             'api_option':'paste',
             'api_paste_format':'JSON'}
 
