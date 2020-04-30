@@ -22,7 +22,7 @@ Plan:
 		- make sure python path is specified in bash script
 		- add `MAILTO=""` to cron to stop mail
 	4. [x] Write script to setup cron.
-	5. [ ] Test on Raspberry Pi
+	5. [x] Test on Raspberry Pi
 2. Read sensor measurements from Raspberry Pi
 	1. [ ] Wire up sensor
 		- type `pinout` for pi pinout
