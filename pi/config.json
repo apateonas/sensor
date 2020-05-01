@@ -7,5 +7,5 @@
 		"temperature_C" : null,
 		"humidity_percent" : null
 	},
-	"ENDPOINT_API_URL" : "https://us-central1-sensor-275901.cloudfunctions.net/recordMeasurements",
+	"ENDPOINT_API_URL" : "https://us-central1-sensor-275901.cloudfunctions.net/recordMeasurements"
 }
