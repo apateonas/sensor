@@ -17,6 +17,7 @@ def read_sensor(config):
     dhtDevice = adafruit_dht.DHT11(config["DHT11_PIN"])
     measurements = config["MEASUREMENTS"]
     measurements["timestamp"] = datetime.now().timestamp()
+    measurements["station_id"] = config["STATION_ID"]
     try:
         measurements["temperature C"] = dhtDevice.temperature
         measurements["humidity %"] = dhtDevice.humidity
