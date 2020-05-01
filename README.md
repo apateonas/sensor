@@ -31,4 +31,4 @@ Plan:
 	3. [ ] send json over HTTP
 	4. [ ] Pick up with GCF
 3. Persitance
-	1. [ ] Learn BitQuery 
+	1. [ ] Learn BigQuery 
