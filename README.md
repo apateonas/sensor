@@ -30,6 +30,19 @@ Plan:
 	2. [x] Read to json
 	3. [x] send json over HTTP
 		- recorded in pastebin
-	4. [ ] Pick up with GCF
-3. Persitance
-	1. [ ] Learn BigQuery 
+3. GCF
+	1. [x] Pick up http put with GCF
+	2. [ ] Learn BigQuery
+	3. [ ] Add persistance
+		- save measurements in DB
+	4. [ ] Query DB
+	5. [ ] Send data when GET
+	6. [ ] Plot data
+4. AWS
+	1. [x] Pick up http put with AWS Lambd
+	3. [ ] Add persistance
+		- save measurements in DB
+	4. [ ] Query DB
+	5. [ ] Send data when GET
+	6. [ ] Plot data
+
