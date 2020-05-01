@@ -9,8 +9,7 @@ import adafruit_dht
 from datetime import datetime
 
 
-const CONFIG_PATH = pathlib.Path(__file__).parent.absolute() / "config.json"
-const station_id
+CONFIG_PATH = pathlib.Path(__file__).parent.absolute() / "config.json"
 
 
 def read_sensor(config):
