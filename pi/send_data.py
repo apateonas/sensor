@@ -27,12 +27,9 @@ def read_sensor(config):
 
 
 def send_data(config, measurements):
-    # convert measurements to json
-    measurements_json = json.dumps(measurements)
-
     r = requests.post(
         url=config['ENDPOINT_API_URL'],
-        data=measurements_json
+        data=measurements
     )
 
     response = r.text 
