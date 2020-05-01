@@ -1,9 +1,11 @@
 {
+	"STATION_ID" : "pi1",
 	"DHT11_PIN" : 2,
 	"MEASUREMENTS" : {
 		"timestamp" : null,
-		"temperature C" : null,
-		"humidity %" : null
+		"station_id" : null,
+		"temperature_C" : null,
+		"humidity_percent" : null
 	},
 	"ENDPOINT_API_URL" : "https://us-central1-sensor-275901.cloudfunctions.net/recordMeasurements",
 }

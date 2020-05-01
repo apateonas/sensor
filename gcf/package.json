@@ -9,6 +9,7 @@
   "author": "apateonas",
   "license": "ISC",
   "dependencies": {
+    "@google-cloud/bigquery": "^4.7.0",
     "escape-html": "^1.0.3"
   }
 }

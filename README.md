@@ -33,8 +33,13 @@ Plan:
 3. GCF
 	1. [x] Pick up http put with GCF
 	2. [ ] Learn BigQuery
-	3. [ ] Add persistance
-		- save measurements in DB
+		1. [x] learn how to setup cloud storage
+		2. [x] learn basic SQL
+		3. [ ] learn how to add data to cloud storage
+			- Setup dataset and table manually
+			- insert data into table from GCF
+			- Todo: use terraform to setup dataset. Script should be run by `deploy`.
+	3. [ ] save measurements in DB
 	4. [ ] Query DB
 	5. [ ] Send data when GET
 	6. [ ] Plot data

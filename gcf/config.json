@@ -1,0 +1,8 @@
+{
+	"DATASET_ID" : "sensor_data",
+	"DATASET_OPTIONS" : {
+		"location" : "US"
+	},
+	"TABLE_ID" : "measurements",
+	"TABLE_SCHEMA" : "timestamp:float, station_id:string, temperature_C:float, humidity_percent:float"
+}
