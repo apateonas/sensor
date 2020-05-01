@@ -18,8 +18,8 @@ def read_sensor(config):
     measurements["timestamp"] = datetime.now().timestamp()
     measurements["station_id"] = config["STATION_ID"]
     try:
-        measurements["temperature C"] = dhtDevice.temperature
-        measurements["humidity %"] = dhtDevice.humidity
+        measurements["temperature_C"] = dhtDevice.temperature
+        measurements["humidity_percent"] = dhtDevice.humidity
     except RuntimeError as error:
         # Errors happen fairly often, DHT's are hard to read, just keep going
         print(error.args[0])
