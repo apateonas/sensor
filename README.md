@@ -1,11 +1,11 @@
-# sensor
+# Read sensor to cloud
 ----------------------------------------------------------------
 Record sensor readings in the cloud
 
 Components:
 - Raspberry Pi
 - DHT11 temperature and humidity sensor
-- Cloud (GCF of AWS)
+- Cloud (GCF or AWS)
 
 Parts:
 - Send HTTP from Raspberry Pi to endpoint
@@ -24,11 +24,12 @@ Plan:
 	4. [x] Write script to setup cron.
 	5. [x] Test on Raspberry Pi
 2. Read sensor measurements from Raspberry Pi
-	1. [ ] Wire up sensor
+	1. [x] Wire up sensor
 		- type `pinout` for pi pinout
 		- [GPIO with Python](https://www.raspberrypi.org/documentation/usage/gpio/python/README.md)
-	2. [ ] Read to json
-	3. [ ] send json over HTTP
+	2. [x] Read to json
+	3. [x] send json over HTTP
+		- recorded in pastebin
 	4. [ ] Pick up with GCF
 3. Persitance
 	1. [ ] Learn BigQuery 

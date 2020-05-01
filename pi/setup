@@ -1,7 +1,14 @@
 #!/bin/bash
 
+# env
+pip3 install adafruit-circuitpython-dht, datetime
+sudo apt-get install libgpiod2
+
 # Set up the crontab to run run-record script every minute
 chmod +x run-record
 parent_path=$( cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P )
 crontab -l -u $USER;
 printf "MAILTO=\"\"\n* * * * * ${parent_path}/run-record\n" | sudo crontab -u $USER -
+
+echo
+echo "Setup Complete"
