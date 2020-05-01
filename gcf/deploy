@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# deploy google function
+gcloud functions deploy recordMeasurements --runtime nodejs8 --trigger-http --allow-unauthenticated

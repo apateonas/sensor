@@ -29,15 +29,10 @@ def send_data(config, measurements):
     # convert measurements to json
     measurements_json = json.dumps(measurements)
 
-    # data to be sent to api 
-    data = {'api_dev_key': config['PASTEBIN_DEV_KEY'],
-            'api_user_key': config['PASTEBIN_USER_KEY'],
-            'api_paste_name': "test post",
-            'api_paste_code': str(measurements_json), 
-            'api_option':'paste',
-            'api_paste_format':'JSON'}
-
-    r = requests.post(url=config['ENDPOINT_API_URL'], data=data)
+    r = requests.post(
+        url=config['ENDPOINT_API_URL'],
+        data=measurements_json
+    )
 
     response = r.text 
     print("Response: " + str(response))
