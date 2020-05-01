@@ -35,16 +35,16 @@ Plan:
 	2. [ ] Learn BigQuery
 		1. [x] learn how to setup cloud storage
 		2. [x] learn basic SQL
-		3. [ ] learn how to add data to cloud storage
+		3. [x] learn how to add data to cloud storage
 			- Setup dataset and table manually
 			- insert data into table from GCF
 			- Todo: use terraform to setup dataset. Script should be run by `deploy`.
-	3. [ ] save measurements in DB
-	4. [ ] Query DB
+	3. [x] save measurements in DB
+	4. [x] Query DB
 	5. [ ] Send data when GET
 	6. [ ] Plot data
 4. AWS
-	1. [x] Pick up http put with AWS Lambd
+	1. [ ] Pick up http put with AWS Lambd
 	3. [ ] Add persistance
 		- save measurements in DB
 	4. [ ] Query DB
